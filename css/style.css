@@ -50,7 +50,7 @@ body > header {
      width: 20%;
 }
 
-a {
+nav a {
      text-decoration: none;
      color: black;
      font-size: 18px;
@@ -71,6 +71,7 @@ nav li {
 /* Main body */
 main header {
      font-size: 30px;
+     /* test */
 }
 
 main {
@@ -90,6 +91,22 @@ p + ul > li {
 
 .no-line {
      border-bottom: 0;
+}
+
+p,li {
+     padding: 5px;
+     line-height: 20px;
+}
+
+code {
+     display: block;
+     background-color: rgb(247, 247, 247);
+     padding: 20px;
+     font-size: 12px;
+}
+
+header#reference a:active {
+     color: red;
 }
 
 /******************************************
